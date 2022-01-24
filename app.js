@@ -2,7 +2,7 @@ const loginForm = document.getElementById('login-form');
 const loginInput = loginForm.querySelector('input');
 const loginButton = loginForm.querySelector('button');
 
-function clickLoginBtn() {
+function onLoginSubmit() {
     const username = loginInput.value;
     if (username  === '') {
         alert('Please write your name');
@@ -11,4 +11,4 @@ function clickLoginBtn() {
     }
 }
 
-loginButton.addEventListener('click', clickLoginBtn);
+loginForm.addEventListener('submit', onLoginSubmit); 
