@@ -14,7 +14,7 @@ function onLonginSubmit(event) {
 }
 
 function paintGreetings(username) {
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `${username}님, 안녕하세요`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 

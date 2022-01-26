@@ -1,43 +1,39 @@
 const quotes = [
     {
-        quote: 'Chains of habit are too light to be felt until they are too heavy to be broken.',
-        author: 'Warren Buffett'
+        quote: '그대의 한 줄로 내가 나날을 버티었소',
+        author: '김해진'
     },
     {
-        quote: 'You create your opportunities by asking for them.',
-        author: 'Patty Hansen'
+        quote: '이 순진한 친구 조심하라구',
+        author: '이윤'
     },
     {
-        quote: 'Talent wins games, but teamwork wins championships.',
-        author: 'Michael Jordan'
+        quote: '이게 심상치 않아 걸작이 될 것 같아',
+        author: '이태준'
     },
     {
-        quote: 'In this life he laughs longest who laughs last.',
-        author: 'John Masefield'
+        quote: '가난해도 사랑은 알고 빠앗긴 들에도 봄은 올테니',
+        author: '김수남'
     },
     {
-        quote: 'The worst is not So long as we can say, "This is the worst."',
-        author: 'William Shakespeare'
+        quote: '쏟아지는 별빛을 봐 마음껏 달려봐 두려워 마"',
+        author: '히카루'
     },
     {
-        quote: 'History is moving, and it will tend toward hope, or tend toward tragedy.',
-        author: 'George W. Bush'
+        quote: '말 한마디가 너무 눈부셔서 난 바보처럼 눈물이 나',
+        author: '정세훈'
     },
     {
-        quote: 'Life is a risk.',
-        author: 'Diane Frolov'
+        quote: '내 모든 걸 잃어도 좋으니 오늘밤 나의 창가에 찾아와주오',
+        author: '김환태'
     },
     {
-        quote: 'Blaze with the fire that is never extinguished.',
-        author: 'Luisa Sigea'
+        quote: '편지의 주인을 나는 사랑하지 않을 수 없다',
+        author: '김해진'
     },
     {
-        quote: 'Genius is nothing but a great capacity for patience.',
-        author: 'Buffon'
-    },
-    {
-        quote: 'The best thing about the future is that it comes one day at a time.',
-        author: 'Abraham Lincoln'
+        quote: '믿어지지 않아 내가 그 사람의 곁에',
+        author: '정세훈'
     }
 ]
 

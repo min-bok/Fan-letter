@@ -1,3 +1,83 @@
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'KyoboHandwriting2020A';
+}
+
 .hidden {
     display: none;
 }
+
+.btnSet {
+    border: none;
+    background-color: transparent;
+    margin-left: 0.625rem;
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/2.jpg);
+    background-size: 100%;
+    font-size: 16px;
+}
+
+/* clock */
+
+#clock {
+    position: absolute;
+    font-size: 1.875rem;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    top: 0;
+    left: 0;
+}
+
+/* logo */
+
+.logo {
+    width: 300px;
+}
+
+/* todo-form */
+#todo-form input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* quotes */
+
+#quote {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    writing-mode: vertical-rl;
+    right: 0;
+}
+
+/* weather */
+
+#weather {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1.25rem;
+}
+
+
