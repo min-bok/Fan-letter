@@ -14,6 +14,14 @@
     font-family: 'KyoboHandwriting2020A';
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/bg.png);
+    background-size: 100%;
+    font-size: 16px;
+}
+
 .hidden {
     display: none;
 }
@@ -31,15 +39,12 @@
 
 #mainPage {
     position: relative;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/bg.png);
-    background-size: 100%;
-    font-size: 16px;
 }
 
 /* clock */
@@ -140,3 +145,30 @@ h1 {
 
 /* test page */
 
+#testPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#testPage h1 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+#testPage button:nth-child(2) {
+    margin-bottom: 1.25rem;
+}
+
+
+#testPage button {
+    width: 50vw;
+    height: auto;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+}
