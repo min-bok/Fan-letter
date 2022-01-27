@@ -32,6 +32,10 @@ function resultOne() {
 
     if(i == 5) {
         i = i-5;
+    } else if(i == 7) {
+        i = i-3;
+    } else if(i == 9) {
+        i = i-7
     } else if(i = 10) {
         i = i-9;
     }
@@ -58,7 +62,11 @@ function resultTwo() {
     result.appendChild(CharacterInfo);
     result.appendChild(CharacterDetail);
 
-    if(i == 10) {
+    if(i ==7) {
+        i = i-2;
+    } else if(i == 9) {
+        i = i-6;
+    } else if(i == 10) {
         i = i-4;
     }
 
@@ -82,8 +90,12 @@ function first() {
         resultOne();
     } else if(i == 6) {
         i = i+1;
+    } else if(i == 7) {
+        resultOne();
     } else if(i == 8) {
         i = i-5;
+    } else if(i == 9) {
+        resultOne();
     } else if(i == 10) {
         resultOne();
     }
@@ -110,8 +122,12 @@ function second() {
         i = i+5;
     } else if(i ==6) {
         i =i+3;
+    } else if(i == 7) {
+        resultTwo();
     } else if(i == 8) {
         i = i-2;
+    }else if(i == 9) {
+        resultTwo();
     } else if(i == 10) {
         resultTwo();
     } 
