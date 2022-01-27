@@ -14,3 +14,7 @@ function paintCharacter() {
 }
 
 window.addEventListener('load', paintCharacter);
+
+for (let i =1; i < resultArr.length; i++) {
+    paintCharacter();
+}

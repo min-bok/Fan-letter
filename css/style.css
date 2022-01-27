@@ -244,10 +244,13 @@ h1 {
 /* CharacterInfo */
 
 #characterInfo {
+    position: relative;
     display: flex;
-    width: 100%;
+    width: 60%;
     height: 100%;
     justify-content: center;
+    background-color: palegoldenrod;
+    margin: 0 auto;
 }
 
 #characterInfo div {
