@@ -242,3 +242,8 @@ h1 {
 }
 
 /* CharacterInfo */
+
+#characterInfo {
+    width: 100%;
+    height: 100%;
+}
