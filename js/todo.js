@@ -23,12 +23,12 @@ function paintTodo(newTodo) {
     const span = document.createElement('span');
     span.innerText = newTodo.text;
     const button = document.createElement('button');
-    button.classList.add('btnSet');
     button.innerText = '삭제';
-    button.addEventListener('click', deleteTodo);
     li.appendChild(span);
     li.appendChild(button);
     toDoList.appendChild(li);
+    button.classList.add('btnSet');
+    button.addEventListener('click', deleteTodo);
 }
 
 function handleToDoSubmit(event) {

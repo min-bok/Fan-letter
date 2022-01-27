@@ -2,13 +2,13 @@ const body = document.querySelector('body');
 const mainPage = document.querySelector('#mainPage');
 const navBtn = document.querySelector('#navBtn'); 
 const testBtn = document.querySelector('#navBtn button:nth-child(3)'); 
-const testPage = document.querySelector('#testPage');
+const test = document.querySelector('#test');
 
-testPage.remove();
+test.remove();
 
 function moveTestPage() {
     mainPage.remove();
-    body.prepend(testPage);
+    body.prepend(test);
 }
 
 testBtn.addEventListener('click', moveTestPage);

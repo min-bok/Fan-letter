@@ -12,12 +12,13 @@
     margin: 0;
     padding: 0;
     font-family: 'KyoboHandwriting2020A';
+    overflow: hidden;
 }
 
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(/img/bg.png);
+    background-image: url(../img/bg.png);
     background-size: 100%;
     font-size: 16px;
 }
@@ -138,9 +139,9 @@ h1 {
 }
 
 
-/* test page */
+/* test */
 
-#testPage {
+#test {
     width: 100%;
     height: 100%;
     position: relative;
@@ -150,26 +151,62 @@ h1 {
     justify-content: center;
 }
 
-#testPage div {
+#test div {
     display: flex;
     flex-direction: column;
 }
 
-#testPage h1 {
+#test h1 {
     font-size: 1.25rem;
     text-align: center;
     margin-bottom: 1.25rem;
 }
 
-#testPage button:nth-child(2) {
+#test button:nth-child(2) {
     margin-bottom: 1.25rem;
 }
 
 
-#testPage button {
+#test button {
     width: 50vw;
     height: auto;
     padding-top: 0.313rem;
     padding-bottom: 0.313rem;
     cursor: pointer;
+}
+
+/* result */
+
+#result {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#result img {
+    width: 9.375rem;
+    height: 9.375rem;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-top: 6.25rem;
+}
+
+#result .name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+#result .info {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.313rem;
+}
+
+#result .detail {
+    font-size: 0.75rem;
 }
