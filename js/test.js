@@ -13,25 +13,58 @@ question.innerText = testArr[i].question;
 firstAnswer.innerText = testArr[i].answerOne;
 secondAnswer.innerText =  testArr[i].answerTwo;
 
-function result() {
+function resultOne() {
     test.remove();
     
     const result = document.querySelector('#result');
     const CharacterImg = document.createElement('img');
     const CharacterName = document.createElement('p');
     CharacterName.classList.add('name');
-    CharacterName.innerText = '김해진';
     const CharacterInfo = document.createElement('p');
     CharacterInfo.classList.add('info');
-    CharacterInfo.innerText = '특징: 잘생김';
     const CharacterDetail = document.createElement('p');
     CharacterDetail.classList.add('detail');
-    CharacterDetail.innerText = '이규형이 특히 귀엽다';
 
     result.appendChild(CharacterImg);
     result.appendChild(CharacterName);
     result.appendChild(CharacterInfo);
     result.appendChild(CharacterDetail);
+
+    if(i == 5) {
+        i = i-5;
+    } else if(i = 10) {
+        i = i-9;
+    }
+
+    CharacterName.innerText = resultArr[i].name;
+    CharacterInfo.innerText = resultArr[i].intro;
+    CharacterDetail.innerText = resultArr[i].detail;
+}
+
+function resultTwo() {
+    test.remove();
+    
+    const result = document.querySelector('#result');
+    const CharacterImg = document.createElement('img');
+    const CharacterName = document.createElement('p');
+    CharacterName.classList.add('name');
+    const CharacterInfo = document.createElement('p');
+    CharacterInfo.classList.add('info');
+    const CharacterDetail = document.createElement('p');
+    CharacterDetail.classList.add('detail');
+
+    result.appendChild(CharacterImg);
+    result.appendChild(CharacterName);
+    result.appendChild(CharacterInfo);
+    result.appendChild(CharacterDetail);
+
+    if(i == 10) {
+        i = i-4;
+    }
+
+    CharacterName.innerText = resultArr[i].name;
+    CharacterInfo.innerText = resultArr[i].intro;
+    CharacterDetail.innerText = resultArr[i].detail;
 }
 
 function first() {
@@ -46,11 +79,13 @@ function first() {
     } else if(i == 4) {
         i = i+2;
     } else if(i == 5) {
-        result();
+        resultOne();
     } else if(i == 6) {
         i = i+1;
     } else if(i == 8) {
         i = i-5;
+    } else if(i == 10) {
+        resultOne();
     }
 
     question.innerText = testArr[i].question;
@@ -77,7 +112,9 @@ function second() {
         i =i+3;
     } else if(i == 8) {
         i = i-2;
-    }
+    } else if(i == 10) {
+        resultTwo();
+    } 
 
     question.innerText = testArr[i].question;
     firstAnswer.innerText = testArr[i].answerOne;

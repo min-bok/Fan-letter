@@ -1,6 +1,6 @@
 const imgNum = '1';
 
-const resultInfo = [
+const resultArr = [
     {
         img: `${imgNum}.jpg`,
         name: `김해진`,
