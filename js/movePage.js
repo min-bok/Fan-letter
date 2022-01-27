@@ -4,9 +4,9 @@ const navBtn = document.querySelector('#navBtn');
 const testBtn = document.querySelector('#navBtn button:nth-child(3)'); 
 const test = document.querySelector('#test');
 const synopsis = document.querySelector('#synopsis');
+const characterInfo = document.querySelector('#characterInfo');
 const CharacterBtn = document.querySelector('#navBtn button:nth-child(1)'); 
 const synopsisBtn = document.querySelector('#navBtn button:nth-child(2)'); 
-const characterInfo = document.querySelector('#characterInfo');
 
 test.remove();
 synopsis.remove();
@@ -30,6 +30,3 @@ function moveCharacterPage() {
 synopsisBtn.addEventListener('click', moveSynopsisPage)
 testBtn.addEventListener('click', moveTestPage);
 CharacterBtn.addEventListener('click', moveCharacterPage);
-
-
-

@@ -244,6 +244,32 @@ h1 {
 /* CharacterInfo */
 
 #characterInfo {
+    display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
+}
+
+#characterInfo div {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+#characterInfo div img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+#characterInfo div h1 {
+    font-size: 20px;
+}
+
+#characterInfo div p {
+    font-size: 14px;
 }
