@@ -9,8 +9,10 @@ function paintCharacter() {
     characterWrap.appendChild(name);
     characterWrap.appendChild(age);
 
-    name.innerText = resultArr[0].name;
-    age.innerText = '29세 천재 소설가';
+    let i = 0;
+
+    name.innerText = resultArr[i].name;
+    age.innerText = resultArr[i].age;
 }
 
 window.addEventListener('load', paintCharacter);
