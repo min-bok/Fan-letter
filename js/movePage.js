@@ -23,16 +23,22 @@ function moveMainPage() {
 
 function moveTestPage() {
     mainPage.remove();
+    synopsis.remove();
+    characterInfo.remove();
     body.prepend(test);
 }
 
 function moveSynopsisPage() {
     mainPage.remove();
+    test.remove();
+    characterInfo.remove();
     body.prepend(synopsis);
 }
 
 function moveCharacterPage() {
     mainPage.remove();
+    test.remove();
+    synopsis.remove();
     body.prepend(characterInfo);
 }
 

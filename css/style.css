@@ -196,13 +196,13 @@ h1 {
 }
 
 #result .name {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 600;
     margin-top: 1.25rem;
 }
 
 #result .info {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
 }
@@ -247,7 +247,6 @@ h1 {
     display: flex;
     width: 60%;
     justify-content: space-between;
-    /* background-color: palegoldenrod; */
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -258,12 +257,13 @@ h1 {
     height: 300px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: 1px solid #000;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 #characterInfo div:nth-child(5) {
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 #characterInfo div:last-child {
@@ -271,17 +271,17 @@ h1 {
 }
 
 #characterInfo div img {
-    width: 80px;
-    height: 80px;
+    width: 6.25rem;
+    height: 6.25rem;
     border: 1px solid #000;
     border-radius: 50%;
 }
 
 #characterInfo div h1 {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 #characterInfo div p {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
 }
