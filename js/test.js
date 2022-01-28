@@ -16,7 +16,6 @@ secondAnswer.innerText =  testArr[i].answerTwo;
 function resultOne() {
     test.remove();
     
-    const result = document.querySelector('#result');
     const CharacterImg = document.createElement('img');
     const CharacterName = document.createElement('p');
     CharacterName.classList.add('name');

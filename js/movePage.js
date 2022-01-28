@@ -3,6 +3,7 @@ const mainPage = document.querySelector('#mainPage');
 const navBtn = document.querySelector('#navBtn'); 
 const testBtn = document.querySelector('#navBtn button:nth-child(3)'); 
 const test = document.querySelector('#test');
+const result = document.querySelector('#result');
 const synopsis = document.querySelector('#synopsis');
 const characterInfo = document.querySelector('#characterInfo');
 const CharacterBtn = document.querySelector('#navBtn button:nth-child(1)'); 
