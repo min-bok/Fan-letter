@@ -1,6 +1,7 @@
 const body = document.querySelector('body');
 const mainPage = document.querySelector('#mainPage');
-const navBtn = document.querySelector('#navBtn'); 
+const navBtn = document.querySelector('#navBtn');
+const mainBtn = document.querySelector('.mainBtn'); 
 const testBtn = document.querySelector('#navBtn button:nth-child(3)'); 
 const test = document.querySelector('#test');
 const result = document.querySelector('#result');
@@ -12,6 +13,13 @@ const synopsisBtn = document.querySelector('#navBtn button:nth-child(2)');
 test.remove();
 synopsis.remove();
 characterInfo.remove();
+
+function moveMainPage() {
+    test.remove();
+    synopsis.remove();
+    characterInfo.remove();
+    body.prepend(mainPage);
+}
 
 function moveTestPage() {
     mainPage.remove();
@@ -31,3 +39,4 @@ function moveCharacterPage() {
 synopsisBtn.addEventListener('click', moveSynopsisPage)
 testBtn.addEventListener('click', moveTestPage);
 CharacterBtn.addEventListener('click', moveCharacterPage);
+mainBtn.addEventListener('click', moveMainPage);
