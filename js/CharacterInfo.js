@@ -10,6 +10,7 @@ function paintCharacter() {
         characterWrap.appendChild(name);
         characterWrap.appendChild(age);
 
+        face.src = `../img/${i}.png`
         name.innerText = resultArr[i].name;
         age.innerText = resultArr[i].age;
     }
