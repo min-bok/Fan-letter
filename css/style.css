@@ -271,15 +271,13 @@ h1 {
 }
 
 #characterInfo div img {
-    width: 6.25rem;
-    height: 6.25rem;
-    border: 1px solid #000;
-    border-radius: 50%;
+    width: 11.875rem;
+    overflow: hidden;
 }
 
 #characterInfo div h1 {
     font-size: 1.25rem;
-    margin-top: 0.938rem;
+    margin-top: -1.25rem;
 }
 
 #characterInfo div p {

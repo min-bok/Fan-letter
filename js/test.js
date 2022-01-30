@@ -39,6 +39,7 @@ function resultOne() {
         i = i-9;
     }
 
+    CharacterImg.src = `../img/${i}.png`;
     CharacterName.innerText = resultArr[i].name;
     CharacterInfo.innerText = resultArr[i].intro;
     CharacterDetail.innerText = resultArr[i].detail;
