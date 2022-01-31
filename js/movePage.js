@@ -13,6 +13,7 @@ const synopsisBtn = document.querySelector('#navBtn button:nth-child(2)');
 test.remove();
 synopsis.remove();
 characterInfo.remove();
+result.remove();
 
 function moveMainPage() {
     test.remove();
