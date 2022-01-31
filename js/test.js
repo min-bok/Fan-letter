@@ -70,7 +70,6 @@ function resultTwo() {
         i = i-4;
     }
 
-
     CharacterImg.src = `../img/${i}.png`;
     CharacterName.innerText = resultArr[i].name;
     CharacterInfo.innerText = resultArr[i].intro;
@@ -89,20 +88,20 @@ function first() {
     } else if(i == 4) {
         i = i+2;
     } else if(i == 5) {
-        body.appendChild(result);
+        body.prepend(result);
         resultOne();
     } else if(i == 6) {
         i = i+1;
     } else if(i == 7) {
-        body.appendChild(result);
+        body.prepend(result);
         resultOne();
     } else if(i == 8) {
         i = i-5;
     } else if(i == 9) {
-        body.appendChild(result);
+        body.prepend(result);
         resultOne();
     } else if(i == 10) {
-        body.appendChild(result);
+        body.prepend(result);
         resultOne();
     }
 
@@ -129,15 +128,15 @@ function second() {
     } else if(i ==6) {
         i =i+3;
     } else if(i == 7) {
-        body.appendChild(result);
+        body.prepend(result);
         resultTwo();
     } else if(i == 8) {
         i = i-2;
     }else if(i == 9) {
-        body.appendChild(result);
+        body.prepend(result);
         resultTwo();
     } else if(i == 10) {
-        body.appendChild(result);
+        body.prepend(result);
         resultTwo();
     } 
 

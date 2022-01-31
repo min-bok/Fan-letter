@@ -19,6 +19,7 @@ function moveMainPage() {
     test.remove();
     synopsis.remove();
     characterInfo.remove();
+    result.remove();
     body.prepend(mainPage);
 }
 
@@ -26,6 +27,7 @@ function moveTestPage() {
     mainPage.remove();
     synopsis.remove();
     characterInfo.remove();
+    result.remove();
     body.prepend(test);
 }
 
@@ -33,6 +35,7 @@ function moveSynopsisPage() {
     mainPage.remove();
     test.remove();
     characterInfo.remove();
+    result.remove();
     body.prepend(synopsis);
 }
 
@@ -40,6 +43,7 @@ function moveCharacterPage() {
     mainPage.remove();
     test.remove();
     synopsis.remove();
+    result.remove();
     body.prepend(characterInfo);
 }
 
