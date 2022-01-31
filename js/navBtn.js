@@ -1,7 +1,11 @@
-// characterInfo
+CharacterBtn.classList.add('hidden');
+synopsisBtn.classList.add('hidden');
+testBtn.classList.add('hidden');
 
-// synopsis
+function displayBtn() {
+    CharacterBtn.classList.remove('hidden');
+    synopsisBtn.classList.remove('hidden');
+    testBtn.classList.remove('hidden');
+};
 
-// test
-
-// main
+mainBtn.addEventListener('toggle', displayBtn);
