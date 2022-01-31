@@ -1,4 +1,7 @@
-// navBtn
-// testBtn
-// CharacterBtn
-// synopsisBtn
+// characterInfo
+
+// synopsis
+
+// test
+
+// main
