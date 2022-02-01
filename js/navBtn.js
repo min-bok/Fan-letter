@@ -8,4 +8,12 @@ function displayBtn() {
     testBtn.classList.remove('hidden');
 };
 
-mainBtn.addEventListener('toggle', displayBtn);
+function mouseoverBtn() {
+    CharacterBtn.classList.add('hidden');
+    synopsisBtn.classList.add('hidden');
+    testBtn.classList.add('hidden');
+};
+
+navBtn.addEventListener('mouseover', displayBtn);
+navBtn.addEventListener('mouseout', mouseoverBtn);
+
