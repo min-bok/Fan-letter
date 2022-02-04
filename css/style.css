@@ -301,7 +301,8 @@ h1 {
 
 .card { 
     width: 200px; 
-    height: 300px; 
+    height: 300px;
+    background-image: url(../img/cardBg.png); 
     -webkit-backface-visibility: hidden; 
     -webkit-transform: translate3d(0,0,0); 
     -webkit-perspective: 0; 
@@ -312,12 +313,10 @@ h1 {
 
 .front { 
     position: absolute; 
-    background: blanchedalmond; 
-    transform: rotateY(0deg); 
+    transform: rotateY(0deg);
 }
 
-.back { 
-    background: aqua; 
+.back {
     transform: rotateY(-180deg); 
 }
 
