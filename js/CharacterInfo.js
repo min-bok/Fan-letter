@@ -4,15 +4,18 @@ function paintCharacter() {
         const face = document.createElement('img');
         const name = document.createElement('h1');
         const age = document.createElement('p');
+        const who = document.createElement('p');
     
         characterInfo.appendChild(characterWrap);
         characterWrap.appendChild(face);
         characterWrap.appendChild(name);
         characterWrap.appendChild(age);
+        characterWrap.appendChild(who);
 
         face.src = `../img/${i}.png`
         name.innerText = resultArr[i].name;
         age.innerText = resultArr[i].age;
+        who.innerText = resultArr[i].who;
     }
 }
 
