@@ -272,15 +272,15 @@ h1 {
 }
 
 .card { 
-    width: 200px; 
-    height: 300px;
+    width: 221px; 
+    height: 316px;
     background-image: url(../img/cardBg.png); 
     -webkit-backface-visibility: hidden; 
     -webkit-transform: translate3d(0,0,0); 
     -webkit-perspective: 0; 
     -webkit-transition: 1s; 
     backface-visibility: hidden; 
-    visibility: visible; transition: 1s; 
+    visibility: visible; transition: 1s;
 }
 
 .front { 
@@ -293,6 +293,7 @@ h1 {
 }
 
 .back {
+    position: absolute; 
     transform: rotateY(-180deg); 
     display: flex;
     align-items: center;
@@ -302,9 +303,9 @@ h1 {
 .back::before {
     position: absolute;
     content: '';
-    width: 190px;
+    width: 185px; 
     height: 260px;
-    border: 1px solid #000;
+    border: 1px dashed #000;
 }
 
 .front img {
