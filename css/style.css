@@ -172,7 +172,6 @@ h1 {
     margin-bottom: 1.25rem;
 }
 
-
 #test button {
     width: 50vw;
     height: auto;
@@ -197,9 +196,8 @@ h1 {
 #result img {
     width: 9.375rem;
     height: 9.375rem;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     border-radius: 50%;
-    /* margin-top: 6.25rem; */
 }
 
 #result .name {
