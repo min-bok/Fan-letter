@@ -1,3 +1,5 @@
+// jQuery출처: https://thinking1.tistory.com/783
+
 (function ($) {
     // requestAnimationFrame Polyfill
     (function () {
