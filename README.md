@@ -24,6 +24,8 @@
 # 👀 Demo
 https://minbok-1998.github.io/Fan-letter/
 
+- 2022.02.05 현재 이미지, 제이쿼리 관련 오류가 발생합니다.
+
 <br>
 <br>
 # ✨프로젝트 소개
