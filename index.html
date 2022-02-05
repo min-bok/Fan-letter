@@ -12,19 +12,19 @@
 </head>
 <body>
     <section id="mainPage">
+        <h2 id="clock">00:00:00</h2>
+        <h1>팬레터</h1>
         <form id="login-form" class="hidden">
             <input
              required
              maxlength="15"
              type="text" 
-             placeholder="what is your name?" 
+             placeholder="당신의 이름은?" 
              />
-            <button>Log In</button>
+            <button>확인</button>
         </form>
-        <h2 id="clock">00:00:00</h2>
-        <h1>팬레터</h1>
         <h2 id="greeting" class="hidden"></h2>
-        <form id="todo-form">
+        <form id="todo-form" class="hidden">
             <input type="text" placeholder="오늘, 무엇을 할까요?" required/>
         </form>
         <ul id="todo-list"></ul>
@@ -61,7 +61,6 @@
     <script src="./js/synopsis.js"></script>
     <script src="./js/CharacterInfo.js"></script>
     <script src="./js/navBtn.js"></script>
-    <script src="./js/flower.js"></script>
     <script src="./js/jquery-sakura.js"></script>
     <script>
         $(window).load(function () {

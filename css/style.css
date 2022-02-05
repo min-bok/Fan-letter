@@ -66,6 +66,26 @@ h1 {
     color: #000;
 }
 
+/* login */
+#login-form input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    margin-top: 1.25rem;
+    margin-bottom: 0.625rem;
+    text-align: center;
+}
+
+#login-form input:focus {
+    outline: none;
+}
+
+#login-form button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 /* greeting */
 
 #greeting {
@@ -178,6 +198,8 @@ h1 {
     padding-top: 0.313rem;
     padding-bottom: 0.313rem;
     cursor: pointer;
+    background-color: #eee8e0;
+    border: none;
 }
 
 /* result */
