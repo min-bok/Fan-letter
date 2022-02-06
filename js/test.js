@@ -7,8 +7,8 @@ let i = 0;
 
 function paintingTest() {
     test.appendChild(question);
-test.appendChild(firstAnswer);
-test.appendChild(secondAnswer);
+    test.appendChild(firstAnswer);
+    test.appendChild(secondAnswer);
 
 // let i = 0;
 
@@ -74,7 +74,7 @@ function resultTwo() {
         i = i-4;
     }
 
-    CharacterImg.src = `../img/${i}.png`;
+    CharacterImg.src = `../img/P${i}.png`;
     CharacterName.innerText = resultArr[i].name;
     CharacterInfo.innerText = resultArr[i].intro;
     CharacterDetail.innerText = resultArr[i].detail;
