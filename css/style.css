@@ -293,7 +293,7 @@ h1 {
 #characterInfo {
     position: relative;
     display: flex;
-    width: 60%;
+    width: 80%;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -301,8 +301,8 @@ h1 {
 }
 
 .container { 
-    width: 200px; 
-    height: 300px; 
+    width: 12.5rem; 
+    height: 18.75rem; 
     position: relative; 
     display: flex;
     cursor: pointer; 
@@ -313,9 +313,10 @@ h1 {
 }
 
 .card { 
-    width: 221px; 
-    height: 316px;
+    width: 13.813rem; 
+    height: 19.75rem;
     background-image: url(../img/cardBg.png); 
+    background-size: 100% 100%;
     -webkit-backface-visibility: hidden; 
     -webkit-transform: translate3d(0,0,0); 
     -webkit-perspective: 0; 
@@ -344,8 +345,8 @@ h1 {
 .back::before {
     position: absolute;
     content: '';
-    width: 185px; 
-    height: 260px;
+    width: 11.563rem; 
+    height: 16.25rem;
     border: 1px dashed #000;
 }
 
