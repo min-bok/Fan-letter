@@ -14,14 +14,35 @@
     font-family: 'KyoboHandwriting2020A';
 }
 
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+@media all and (min-width: 1281px){
+    html {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 1440px){
+    html {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 400px){
+    html {
+        font-size: 14px;
+    }
+}
+
 body {
     position: relative;
     width: 100vw;
     height: 100vh;
     background-image: url(../img/bg.png);
     background-size: 100%;
-    font-size: 16px;
-    overflow-x: hidden;
 }
 
 .hidden {
@@ -155,14 +176,15 @@ h1 {
 }
 
 #navBtn button {
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     border: none;
     border-radius: 50%;
     margin-top: 0.625rem;
     cursor: pointer;
     background-color: #eee8e0;
     font-weight: 500;
+    font-size: 0.75rem;
 }
 
 /* test */
@@ -218,7 +240,6 @@ h1 {
 #result img {
     width: 9.375rem;
     height: 9.375rem;
-    /* border: 1px solid #000; */
     border-radius: 50%;
 }
 
