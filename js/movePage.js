@@ -27,7 +27,6 @@ function moveTestPage() {
     mainPage.remove();
     synopsis.remove();
     characterInfo.remove();
-    result.remove();
     paintingTest();
     body.prepend(test);
 }
@@ -48,12 +47,7 @@ function moveCharacterPage() {
     body.prepend(characterInfo);
 }
 
-function rem() {
-    result.remove();
-}
-
 synopsisBtn.addEventListener('click', moveSynopsisPage)
 testBtn.addEventListener('click', moveTestPage);
 CharacterBtn.addEventListener('click', moveCharacterPage);
 mainBtn.addEventListener('click', moveMainPage);
-mainBtn.addEventListener('click', rem);

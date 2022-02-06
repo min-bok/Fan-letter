@@ -80,6 +80,7 @@ function resultTwo() {
     CharacterDetail.innerText = resultArr[i].detail;
 }
 
+
 function first() {
     if(i == 0) {
         i = i+1;
