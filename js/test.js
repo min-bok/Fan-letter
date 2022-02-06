@@ -3,15 +3,19 @@ const firstAnswer = document.createElement('button');
 firstAnswer.classList.add('first');
 const secondAnswer = document.createElement('button');
 
-test.appendChild(question);
+let i = 0;
+
+function paintingTest() {
+    test.appendChild(question);
 test.appendChild(firstAnswer);
 test.appendChild(secondAnswer);
 
-let i = 0;
+// let i = 0;
 
-question.innerText = testArr[i].question;
-firstAnswer.innerText = testArr[i].answerOne;
-secondAnswer.innerText =  testArr[i].answerTwo;
+question.innerText = testArr[0].question;
+firstAnswer.innerText = testArr[0].answerOne;
+secondAnswer.innerText =  testArr[0].answerTwo;
+}
 
 function resultOne() {
     test.remove();

@@ -28,6 +28,7 @@ function moveTestPage() {
     synopsis.remove();
     characterInfo.remove();
     result.remove();
+    paintingTest();
     body.prepend(test);
 }
 
