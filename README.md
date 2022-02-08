@@ -15,35 +15,43 @@
  메인 페이지, 시놉시스, 인물 소개 그리고 테스트 페이지로 구성되어있습니다.<br>
 
  ## 메인 페이지
+ <br>
  <div align='center'>
     <img src="readme_img/no-login.PNG" width="600px">
 </div>
+<br>
 메인 페이지에서는 최초 1회 로그인이 필요합니다.<br>
 한 번 로그인 한 후에는 사용자의 이름과 할 일 목록을 기억합니다.<br>
-
+<br>
  <div align='center'>
     <img src="readme_img/login.PNG" width="600px">
 </div>
+<br>
 메인 페이지에서는 현재 시간, 로그인 기능, 할 일 목록, 명대사, 날씨 정보를 제공합니다.<br>
-
+<br>
  <div align='center'>
     <img src="readme_img/navBtn.PNG" width="600px">
 </div>
+<br>
 우측 하단에 위치한 버튼을 이용하여 다른 페이지로 이동하거나,<br>
 메인 페이지로 돌아올 수 있습니다.<br>
+버튼은 모든 페이지에서 사용이 가능합니다.<br>
 
 <br>
 <br>
 
 <b># 할 일 목록</b> <br>
+<br>
 사용자는 할 일 목록을 추가하고 삭제할 수 있으며, 사용자가 추가한 할 일 목록은 로컬 스토리지에 저장되어<br>
 창을 닫거나 컴퓨터를 종료해도 기억됩니다.<br>
 
 <b># 명대사</b><br>
+<br>
 우측 상단에서는 뮤지컬 팬레터의 인물별 명대사를 보여줍니다.<br>
 명대사는 페이지가 새로고침될 때 마다 변경됩니다.<br>
 
 <b># 날씨 정보</b> <br>
+<br>
 메인 페이지의 하단에서 날씨 정보를 확인할 수 있습니다.<br>
 웹 페이지는 사용자의 현재 위치를 파악하고 위치에 따른 날씨 정보를 제공합니다.<br>
 
@@ -51,9 +59,11 @@
 <br>
 
  ## 시놉시스
+<br>
 <div align='center'>
-    <img src="readme_img/login.PNG" width="600px">
+    <img src="readme_img/synop.png" width="600px">
 </div>
+<br>
  시놉시스 페이지에서는 뮤지컬 펜레터에 대한 간략한 소개를 제공합니다.
 
 <br>
