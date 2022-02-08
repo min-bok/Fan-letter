@@ -40,17 +40,17 @@
 <br>
 <br>
 
-## # 할 일 목록 <br>
+### # 할 일 목록 <br>
 <br>
 사용자는 할 일 목록을 추가하고 삭제할 수 있으며, 사용자가 추가한 할 일 목록은 로컬 스토리지에 저장되어<br>
 창을 닫거나 컴퓨터를 종료해도 기억됩니다.<br>
 
-## # 명대사<br>
+### # 명대사<br>
 <br>
 우측 상단에서는 뮤지컬 팬레터의 인물별 명대사를 보여줍니다.<br>
 명대사는 페이지가 새로고침될 때 마다 변경됩니다.<br>
 
-<b># 날씨 정보</b> <br>
+### # 날씨 정보 <br>
 <br>
 메인 페이지의 하단에서 날씨 정보를 확인할 수 있습니다.<br>
 웹 페이지는 사용자의 현재 위치를 파악하고 위치에 따른 날씨 정보를 제공합니다.<br>
@@ -58,7 +58,7 @@
 <br>
 <br>
 
- ## 시놉시스
+## 시놉시스
 <br>
 <div align='center'>
     <img src="readme_img/synop.png" width="600px">
@@ -69,7 +69,7 @@
 <br>
 <br>
 
- ## 인물 소개
+## 인물 소개
 <br>
  <div align='center'>
     <img src="readme_img/characterInfo.png" width="600px">
@@ -82,17 +82,17 @@
 <br>
 <br>
 
- ## 테스트
+## 테스트
  테스트 페이지에서는 나와 닮은 등장 인물 찾기 테스트를 할 수 있습니다.<br>
  몇 가지 질문에 답하면, 답한 내용에 따라 테스트 결과를 얻을 수 있습니다.<br>
 
- <b># 질문</b><br>
+### # 질문<br>
 <br>
  <div align='center'>
     <img src="readme_img/test.png" width="600px">
 </div>
 
-<b># 결과</b><br>
+### # 결과<br>
 <br>
  <div align='center'>
     <img src="readme_img/result.png" width="600px">
