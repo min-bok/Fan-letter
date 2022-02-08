@@ -3,7 +3,7 @@
 <br>
 <br>
 <div align='center'>
-    <img src="readme_img/logo.png" width="100px">
+    <img src="readme_img/logo.png" width="150px">
 </div>
 <br>
 <br>
@@ -15,6 +15,22 @@
  메인 페이지, 시놉시스, 인물 소개 그리고 테스트 페이지로 구성되어있습니다.<br>
 
  ## 메인 페이지
+ <div align='center'>
+    <img src="readme_img/no-login" width="600px">
+</div>
+메인 페이지에서는 최초 1회 로그인이 필요합니다.
+한 번 로그인 한 후에는 사용자의 이름과 할 일 목록을 기억합니다.
+
+ <div align='center'>
+    <img src="readme_img/login" width="600px">
+</div>
+메인 페이지에서는 현재 시간, 로그인 기능, 할 일 목록, 명대사, 사용자의 위치에 따른 날씨 정보를 제공합니다.<br>
+
+사용자는 할 일 목록을 추가하고 삭제할 수 있으며, 사용자가 추가한 할 일 목록은 로컬 스토리지에 저장되어<br>
+창을 닫거나 컴퓨터를 종료해도 기억됩니다.<br>
+
+우측 상단에서는 뮤지컬 팬레터의 인물별 명대사를 보여줍니다.<br>
+명대사는 페이지가 새로고침될 때 마다 변경됩니다.<br>
 
  ## 시놉시스
 
