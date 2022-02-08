@@ -16,13 +16,13 @@
 
  ## 메인 페이지
  <div align='center'>
-    <img src="readme_img/no-login.png" width="600px">
+    <img src="readme_img/no-login.PNG" width="600px">
 </div>
 메인 페이지에서는 최초 1회 로그인이 필요합니다.
 한 번 로그인 한 후에는 사용자의 이름과 할 일 목록을 기억합니다.
 
  <div align='center'>
-    <img src="readme_img/login.png" width="600px">
+    <img src="readme_img/login.PNG" width="600px">
 </div>
 메인 페이지에서는 현재 시간, 로그인 기능, 할 일 목록, 명대사, 사용자의 위치에 따른 날씨 정보를 제공합니다.<br>
 
