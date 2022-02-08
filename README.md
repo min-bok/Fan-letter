@@ -70,9 +70,11 @@
 <br>
 
  ## 인물 소개
+<br>
  <div align='center'>
     <img src="readme_img/characterInfo.png" width="600px">
 </div>
+<br>
 인물 소개 페이지에서는 뮤지컬 펜레터에 등장하는 인물들에 대한 소개를 제공합니다.<br>
 카드의 앞면에서는 인물의 이름과 나이, 성별, 직업을 알 수 있고,<br>
 카드의 뒷면에서는 인물에 대한 상세한 정보를 알 수 있습니다.<br>
@@ -81,6 +83,22 @@
 <br>
 
  ## 테스트
+ 테스트 페이지에서는 나와 닮은 등장 인물 찾기 테스트를 할 수 있습니다.<br>
+ 몇 가지 질문에 답하면, 답한 내용에 따라 테스트 결과를 얻을 수 있습니다.<br>
+
+ <b># 질문</b><br>
+<br>
+ <div align='center'>
+    <img src="readme_img/test.png" width="600px">
+</div>
+
+<b># 결과</b><br>
+<br>
+ <div align='center'>
+    <img src="readme_img/result.png" width="600px">
+</div>
+
+
 
 <br>
 <br>
