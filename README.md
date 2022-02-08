@@ -101,7 +101,7 @@
 <br>
 <br>
 
-# Skills
+# ✏ Skills
 HTML, CSS, JavaScript
 
 <br>
