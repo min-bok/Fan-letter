@@ -27,7 +27,7 @@
 메인 페이지에서는 현재 시간, 로그인 기능, 할 일 목록, 명대사, 날씨 정보를 제공합니다.<br>
 
  <div align='center'>
-    <img src="readme_img/navBtn.png" width="600px">
+    <img src="readme_img/navBtn.PNG" width="600px">
 </div>
 우측 하단에 위치한 버튼을 이용하여 다른 페이지로 이동하거나,<br>
 메인 페이지로 돌아올 수 있습니다.<br>
