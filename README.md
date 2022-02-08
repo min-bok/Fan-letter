@@ -3,7 +3,7 @@
 <br>
 <br>
 <div align='center'>
-    <img src="src/assets/Logo-hodu.png" width="100px">
+    <img src="readme_img/logo.png" width="100px">
 </div>
 <br>
 <br>
