@@ -10,8 +10,6 @@ function paintingTest() {
     test.appendChild(firstAnswer);
     test.appendChild(secondAnswer);
 
-// let i = 0;
-
 question.innerText = testArr[0].question;
 firstAnswer.innerText = testArr[0].answerOne;
 secondAnswer.innerText =  testArr[0].answerTwo;
