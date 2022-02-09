@@ -21,7 +21,7 @@ function paintCharacter() {
         frontCard.appendChild(age);
         backCard.appendChild(who);
 
-        face.src = `./img/${i}.png`
+        face.src = './img/`${i}`.png'
         name.innerText = resultArr[i].name;
         age.innerText = resultArr[i].age;
         who.innerText = resultArr[i].who;
