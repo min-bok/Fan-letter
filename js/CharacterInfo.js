@@ -1,5 +1,5 @@
 function paintCharacter() {
-    for (let i =0; i < resultArr.length; i++) {
+    for (let i = 0; i < resultArr.length; i++) {
         const characterWrap = document.createElement('div');
         characterWrap.classList.add('container');
         const frontCard = document.createElement('div');
@@ -21,7 +21,7 @@ function paintCharacter() {
         frontCard.appendChild(age);
         backCard.appendChild(who);
 
-        face.src = `.././img/${i}.png`
+        face.src = `./img/${i}.png`
         name.innerText = resultArr[i].name;
         age.innerText = resultArr[i].age;
         who.innerText = resultArr[i].who;
