@@ -1,0 +1,23 @@
+{
+  "name": "fan-letter",
+  "version": "1.0.0",
+  "description": "<br>\r <br>\r <br>\r <br>\r <div align='center'>\r     <img src=\"readme_img/logo.png\" width=\"120px\">\r </div>\r <br>\r <br>\r <br>\r <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minbok-1998/Momentum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minbok-1998/Momentum/issues"
+  },
+  "homepage": "https://github.com/minbok-1998/Momentum#readme",
+  "devDependencies": {
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
