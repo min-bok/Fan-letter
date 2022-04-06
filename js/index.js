@@ -1,8 +1,6 @@
-import greeting from "./greeting";
+import mainPage from "./mainPage";
 import clock from "./clock";
 import quotes from "./quotes";
-
-import todo from "./todo";
 import weather from "./weather";
 import movePage from "./movePage";
 import testInfo from "./testInfo";
