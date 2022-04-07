@@ -1,4 +1,4 @@
-import mainPage from "./mainPage";
+import greeting from "./greeting";
 import clock from "./clock";
 import quotes from "./quotes";
 import weather from "./weather";
