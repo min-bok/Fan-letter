@@ -1,0 +1,1 @@
+import backgroundStyle from "../css/background.css";

@@ -4,7 +4,8 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './source/index.js',
-        synopsis: './source/synopsisPage.js'
+        synopsis: './source/synopsisPage.js',
+        character: './source/character.js'
         
     },
     output: {
