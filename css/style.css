@@ -290,7 +290,7 @@ h1 {
 
 /* CharacterInfo */
 
-#characterInfo {
+/* #characterInfo {
     position: relative;
     display: flex;
     width: 80%;
@@ -376,4 +376,4 @@ h1 {
 
 .container:hover .back { 
     transform: rotateY(0deg);
-}
+} */

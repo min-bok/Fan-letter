@@ -6,7 +6,6 @@ module.exports = {
         index: './source/index.js',
         synopsis: './source/synopsisPage.js',
         character: './source/character.js'
-        
     },
     output: {
         path: path.resolve(__dirname, 'public'),
