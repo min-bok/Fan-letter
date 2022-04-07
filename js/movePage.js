@@ -31,13 +31,13 @@ function moveTestPage() {
     body.prepend(test);
 }
 
-function moveSynopsisPage() {
-    mainPage.remove();
-    test.remove();
-    characterInfo.remove();
-    result.remove();
-    body.prepend(synopsis);
-}
+// function moveSynopsisPage() {
+//     mainPage.remove();
+//     test.remove();
+//     characterInfo.remove();
+//     result.remove();
+//     body.prepend(synopsis);
+// }
 
 function moveCharacterPage() {
     mainPage.remove();

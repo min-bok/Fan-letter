@@ -1,0 +1,1 @@
+import synopsis from "../js/synopsis"

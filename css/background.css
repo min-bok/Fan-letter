@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'JSArirang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirang-RegularA1.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'KyoboHandwriting2020A';
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+@media all and (min-width: 1281px){
+    html {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 1440px){
+    html {
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width: 400px){
+    html {
+        font-size: 14px;
+    }
+}
