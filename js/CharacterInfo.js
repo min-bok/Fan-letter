@@ -1,35 +1,3 @@
-// function paintCharacter() {
-//     for (let i = 0; i < resultArr.length; i++) {
-        // const characterWrap = document.createElement('div');
-        // characterWrap.classList.add('container');
-        // const frontCard = document.createElement('div');
-        // frontCard.classList.add('front');
-        // frontCard.classList.add('card');
-        // const backCard = document.createElement('div');
-        // backCard.classList.add('back');
-        // backCard.classList.add('card');
-        // const face = document.createElement('img');
-        // const name = document.createElement('h1');
-        // const age = document.createElement('p');
-        // const who = document.createElement('p');
-    
-        // characterInfo.appendChild(characterWrap);
-        // characterWrap.appendChild(frontCard);
-        // characterWrap.appendChild(backCard);
-        // frontCard.appendChild(face);
-        // frontCard.appendChild(name);
-        // frontCard.appendChild(age);
-        // backCard.appendChild(who);
-
-//         face.src = `./img/${i}.png`
-//         name.innerText = resultArr[i].name;
-//         age.innerText = resultArr[i].age;
-//         who.innerText = resultArr[i].who;
-//     }
-// }
-
-// window.addEventListener('load', paintCharacter);
-
 // name, intro, detail 출처 : 뮤지컬 펜레터 공식 굿즈 신문
 // age, who 출처 : 나무위키 https://namu.wiki/w/%ED%8C%AC%EB%A0%88%ED%84%B0(%EB%AE%A4%EC%A7%80%EC%BB%AC)?from=%EB%AE%A4%EC%A7%80%EC%BB%AC%20%ED%8C%AC%EB%A0%88%ED%84%B0#s-3
 
@@ -183,17 +151,34 @@ const resultArr = [
     }
 ]
 
-// const name = document.querySelector(".character-name");
+function paintCharacter() {
+    for (let i = 0; i < resultArr.length; i++) {
+        const characterWrap = document.createElement('div');
+        characterWrap.classList.add('container');
+        const frontCard = document.createElement('div');
+        frontCard.classList.add('front');
+        frontCard.classList.add('card');
+        const backCard = document.createElement('div');
+        backCard.classList.add('back');
+        backCard.classList.add('card');
+        const face = document.createElement('img');
+        const name = document.createElement('h1');
+        const age = document.createElement('p');
+        const who = document.createElement('p');
+    
+        characterInfo.appendChild(characterWrap);
+        characterWrap.appendChild(frontCard);
+        characterWrap.appendChild(backCard);
+        frontCard.appendChild(face);
+        frontCard.appendChild(name);
+        frontCard.appendChild(age);
+        backCard.appendChild(who);
 
-// name.innerText = resultArr[0].name;
+        face.src = `../img/${i}.png`
+        name.innerText = resultArr[i].name;
+        age.innerText = resultArr[i].age;
+        who.innerText = resultArr[i].who;
+    }
+}
 
-// function hey() {
-//     const characterWrap = document.getElementById("character-wrap");
-//     var fragment = document.createDocumentFragment();
-//     for (const iterator of resultArr) {
-//         characterWrap.appendChild(fragment);
-//     }
-// }
-
-// document.body.appendChild(fragment);
-
+window.addEventListener('load', paintCharacter);
