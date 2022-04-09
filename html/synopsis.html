@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 </head>
 <body>
     <div id="synopsis"></div>
 
     <script src="../public/synopsis_bundle.js"></script>
+    <script>
+        $(window).load(function () {
+            $('body').sakura();
+        });
+     </script>
 </body>
 </html>
