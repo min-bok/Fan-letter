@@ -1,14 +1,14 @@
 const body = document.querySelector('body');
 const mainPage = document.querySelector('#mainPage');
 const navBtn = document.querySelector('#navBtn');
-const mainBtn = document.querySelector('.mainBtn'); 
+const mainBtn = document.querySelector('.main-btn'); 
 const testBtn = document.querySelector('#navBtn button:nth-child(3)'); 
 const test = document.querySelector('#test');
 const result = document.querySelector('#result');
 const synopsis = document.querySelector('#synopsis');
 const characterInfo = document.querySelector('#characterInfo');
 const CharacterBtn = document.querySelector('#navBtn button:nth-child(1)'); 
-const synopsisBtn = document.querySelector('#navBtn button:nth-child(2)'); 
+const synopsisBtn = document.querySelector('.synopsis-btn'); 
 
 test.remove();
 synopsis.remove();
