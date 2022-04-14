@@ -1,3 +1,5 @@
+const { testArr } = require('./testInfo.js');
+
 const test = document.querySelector("#test");
 const question = document.createElement('h1');
 const firstAnswer = document.createElement('button');
@@ -151,5 +153,6 @@ function second() {
     return i; 
 }
 
+window.addEventListener('load', paintingTest);
 firstAnswer.addEventListener('click', first);
 secondAnswer.addEventListener('click', second);

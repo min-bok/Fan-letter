@@ -75,3 +75,5 @@ const testArr = [
                     지용이 형 원고 좀 받아올래?`,
     }
 ];
+
+module.exports = { testArr };
