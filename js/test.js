@@ -47,7 +47,7 @@ function resultOne() {
         i = i-9;
     }
 
-    CharacterImg.src = `./img/P${i}.png`;
+    CharacterImg.src = `../img/P${i}.png`;
     CharacterName.innerText = resultArr[i].name;
     CharacterInfo.innerText = resultArr[i].intro;
     CharacterDetail.innerText = resultArr[i].detail;
@@ -78,7 +78,7 @@ function resultTwo() {
         i = i-4;
     }
 
-    CharacterImg.src = `./img/P${i}.png`;
+    CharacterImg.src = `../img/P${i}.png`;
     CharacterName.innerText = resultArr[i].name;
     CharacterInfo.innerText = resultArr[i].intro;
     CharacterDetail.innerText = resultArr[i].detail;
