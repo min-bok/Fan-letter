@@ -5,7 +5,8 @@ module.exports = {
     entry: {
         index: './source/index.js',
         synopsis: './source/synopsisPage.js',
-        character: './source/character.js'
+        character: './source/character.js',
+        test : './source/testPage.js',
     },
     output: {
         path: path.resolve(__dirname, 'public'),
