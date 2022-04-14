@@ -1,3 +1,4 @@
+const test = document.querySelector("#test");
 const question = document.createElement('h1');
 const firstAnswer = document.createElement('button');
 firstAnswer.classList.add('first');
@@ -10,9 +11,9 @@ function paintingTest() {
     test.appendChild(firstAnswer);
     test.appendChild(secondAnswer);
 
-question.innerText = testArr[0].question;
-firstAnswer.innerText = testArr[0].answerOne;
-secondAnswer.innerText =  testArr[0].answerTwo;
+    question.innerText = testArr[0].question;
+    firstAnswer.innerText = testArr[0].answerOne;
+    secondAnswer.innerText =  testArr[0].answerTwo;
 }
 
 function resultOne() {
