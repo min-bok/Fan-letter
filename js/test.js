@@ -1,9 +1,9 @@
 const { testArr } = require('./testInfo.js');
+const { resultArr } = require('./resultInfo.js');
 
 const test = document.querySelector("#test");
 const result = document.querySelector("#result");
-const body = document;
-
+const body = document.querySelector("body");;
 const question = document.createElement('h1');
 const firstAnswer = document.createElement('button');
 firstAnswer.classList.add('first');
