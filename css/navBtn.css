@@ -1,25 +1,24 @@
 /* nav Btn */
-
 #nav-btn {
-    position: fixed;
-    display: flex;
-    width: auto;
-    height: auto;
-    flex-direction: column;
-    right: 0;
-    bottom: 0;
-    margin-right: 1.875rem;
-    margin-bottom: 1.875rem;
+  position: fixed;
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  right: 0;
+  bottom: 0;
+  margin-right: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 
 #nav-btn button {
-    width: 3.125rem;
-    height: 3.125rem;
-    border: none;
-    border-radius: 50%;
-    margin-top: 0.625rem;
-    cursor: pointer;
-    background-color: #eee8e0;
-    font-weight: 500;
-    font-size: 0.75rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: none;
+  border-radius: 50%;
+  margin-top: 0.625rem;
+  cursor: pointer;
+  background-color: #eee8e0;
+  font-weight: 500;
+  font-size: 0.75rem;
 }

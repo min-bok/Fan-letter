@@ -1,3 +1,6 @@
 /node_modules
 /bg.ai
 /cardBg.ai
+/package-lock.json
+/webpack.config.js
+/webpack.config.prod.js
