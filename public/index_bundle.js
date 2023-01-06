@@ -45,7 +45,7 @@ eval("// jQuery출처: https://thinking1.tistory.com/783\r\n\r\n(function ($) {\
   \******************************/
 /***/ (() => {
 
-eval("$(window).load(function () {\r\n  $(\"body\").sakura();\r\n});\r\n\n\n//# sourceURL=webpack://fan-letter/./js/loadDecoration.js?");
+eval("$(window).on(\"load\", function () {\r\n  $(\"body\").sakura();\r\n});\r\n\n\n//# sourceURL=webpack://fan-letter/./js/loadDecoration.js?");
 
 /***/ }),
 
